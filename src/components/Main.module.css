@@ -1,0 +1,98 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 82.6vh;
+  gap: 30px;
+}
+
+.inputCamp {
+  display: flex;
+  align-items: center;
+
+  width: 582px;
+  height: 44px;
+  border: 1px solid #E3E3E3;
+  border-radius: 22px;
+}
+
+.inputCamp:hover {
+  box-shadow: 0 0 6px #dfe1e5;
+}
+
+.insideInputCamp {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.insideInputCamp img {
+  margin-right: 11px;
+}
+
+.insideInputCamp input {
+  width: 400px;
+  font-size: 16px;
+  border: none;
+  font-weight: 300;
+}
+
+.insideInputCamp input:focus {
+  outline: none;
+}
+
+.keyandphone {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  width: 100%;
+  margin-right: 14px;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.protection {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.protection p {
+  color: #1A0DBD;
+  font-size: 14px;
+}
+
+.protection p:hover {
+  filter: brightness(1.5);
+}
+
+@media screen and (max-width: 728px) {
+  .inputCamp {
+    width: 90%;
+    height: 44px;
+  }
+  
+  .insideInputCamp {
+    margin-left: 10px;
+  }
+  
+  .insideInputCamp img {
+    margin-right: 11px;
+  }
+  
+  .insideInputCamp input {
+    width: 200px;
+    font-size: 16px;
+    border: none;
+    font-weight: 300;
+  }
+}
